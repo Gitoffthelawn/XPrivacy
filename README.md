@@ -383,6 +383,7 @@ Installation may seem lengthy, but you can do it quickly:
 	* For Android 5.x see [this XDA thread](http://forum.xda-developers.com/showthread.php?t=3034811)
 	* For Android 5.0.x Touchwiz ROMs see [this XDA thread](http://forum.xda-developers.com/xposed/unofficial-xposed-samsung-lollipop-t3113463)
 	* For Android 5.1 Touchwiz ROMs see [this XDA thread](http://forum.xda-developers.com/xposed/unofficial-xposed-samsung-lollipop-t3180960)
+<a name="download"></a>
 1. Download and install XPrivacy from [here](http://repo.xposed.info/module/biz.bokhorst.xprivacy)
 	* Alternatively, download it from [here](https://github.com/M66B/XPrivacy/releases)
 1. Enable XPrivacy in the Xposed installer
@@ -1326,13 +1327,13 @@ Limited support means I will try to fix bugs, but only if it doesn't take much t
 
 **I will not look into issues of applications that cost money or have root access.**
 
-**There is no support for anything other than privacy (no support for game cheating, root cloaking, etc.)**
+**There is no support for anything other than privacy (for example, game cheating, root cloaking, etc.).**
 
 Please check [the limitations](#limitations) before reporting a bug, requesting a feature, or asking a question.
 
 #### Bugs
 
-**First ask if other people have encountered the same bug!** (see questions below)
+**First ask if other people have encountered the same bug!** (see [Questions](#questions))
 
 If you encounter a bug, please [create an issue](https://github.com/M66B/XPrivacy/issues).
 
@@ -1350,7 +1351,7 @@ Therefore I will not look into long logcats anymore.
 
 **Do not forget to enable XPrivacy debug logging using the settings menu!**
 
-**Before submitting any issue, please make sure you are running the latest version of XPrivacy.**
+**Before submitting any issue, please make sure you are running the [latest version of XPrivacy](#download).**
 
 **Before submitting any issue, please make sure XPrivacy is causing the problem by temporarily disabling XPrivacy.**
 
@@ -1369,9 +1370,10 @@ Please read [here](http://forum.xda-developers.com/xposed/modules/xprivacy-ultim
 
 **One feature request per issue please!**
 
+<a name="questions"></a>
 #### Questions
 
-If you have any questions, please leave a message in the [XDA XPrivacy  thread](http://forum.xda-developers.com/showthread.php?p=42488236).
+If you have any questions, please create a post in the [XDA XPrivacy  thread](http://forum.xda-developers.com/showthread.php?p=42488236).
 More people follow the support thread than the GitHub issue tracker, which increases your chance of receiving a helpful answer.
 Moreover, the answers given might be beneficial to more people than you alone.
 
