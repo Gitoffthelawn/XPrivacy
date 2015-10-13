@@ -1303,6 +1303,13 @@ If a reboot doesn't solve this problem, try disabling and then enabling XPrivacy
 Some functions are marked 'dangerous' (red background) because they frequently cause applications to crash when they are restricted. When a category is restricted, the 'dangerous' functions within this category will not be restricted. These functions can be restricted directly, if needed.
 Experienced users can change a 'dangerous' function into a normal function by long-clicking it in the default template. Usually, the restriction that caused an application to crash can be identified in the logcat. Again, restricting 'dangerous' functions is only recommended for experienced users and will cause crashes more frequently!
 
+<a name="FAQ82"></a>
+**(82) Are blacklists/whitelists still honored, regardless of whether or not the associated function is restricted?**
+
+Yes, even if the function itself is not restricted, the associated blacklist will still be honored.  Similarly, even if the function itself is restricted, the associated whitelist will still be honored.
+
+See [relevant issue](https://github.com/M66B/XPrivacy/issues/2283) for details.
+
 Support
 -------
 
